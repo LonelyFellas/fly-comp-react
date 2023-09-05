@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2016", 
+    "module": "ES2022",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "csstype": [
+        "./node_modules/csstype/index.d.ts"
+      ]
+    }
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "esm"
+  ]
+}

@@ -1,0 +1,10 @@
+@property --radial-radius {
+  syntax: '<percentage>';
+  inherits: true;
+  initial-value: -5%;
+}
+@property --angle {
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: -10deg;
+}
